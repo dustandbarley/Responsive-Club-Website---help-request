@@ -1,0 +1,208 @@
+* {
+    font-family: 'Roboto', arial, sans-serif;
+    /*border: 1px dotted blue;*/
+    padding: 0;
+    margin: 0;
+}
+
+/*
+
+html,
+body {
+    display: flex;
+    max-width: 1024px;
+    width: 100%;
+    font-size: 16px;
+    border: 1px dotted purple;
+}
+
+.headercontainer {
+    max-width: 1024px;
+    width: 100%;
+    height: 2rem;
+    border: 1px solid green;
+}
+
+.logocontainer {
+    border: 2px solid grey;
+    display: inline-block;
+}
+.headerlogo img{
+    height: 2.2rem;
+    width: auto;
+    border: 1px dotted green;
+}
+
+.navcontainer {
+    height: 20px;
+    max-width: 720px;
+    border: 1px dotted blue;
+    background-color: aqua;
+    display: inline-block;
+    position: relative;
+    right: -40px;
+}
+  
+
+#navtop,
+#navbottom {
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 720px;
+    width: 100%;
+}*/
+
+.headercontainer {
+    max-width: 1024px;
+    width: 100%;
+    height: auto;
+    border: 1px solid red;
+}
+
+.logocontainer {
+    border: 2px solid grey;
+    display: inline-block;
+}
+
+.headerlogo img{
+    height: 2.2rem;
+    width: auto;
+    border: 1px dotted green;
+}
+
+.navcontainer {
+    border: 1px dotted black;
+}
+#navtop,
+#navbottom {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#navtop > div,
+#navbottom > div {
+    margin: 2px;
+    line-height: 1rem;
+}
+
+
+.about {
+    width: 55px;
+    border: 1px solid red;
+}
+
+.top.about {
+    flex-shrink: 0;
+}
+
+.programmes {
+    width: 118px;
+    border: 1px solid red;
+}
+
+.bottom.programmes {
+    flex-shrink: 0;
+}
+
+.maintenance {
+    width: 116px;
+    border: 1px solid red;
+}
+
+.top.maintenance {
+    flex-shrink: 0;
+}
+
+.shop {
+    width: 48px;
+    border: 1px solid red;
+
+}
+
+.bottom.shop {
+    flex-shrink: 0;
+}
+
+.involved {
+    width: 117px;
+    border: 1px solid red;
+}
+
+.top.involved {
+    flex-shrink: 0;
+}
+
+.media {
+    width: 52px;
+    border: 1px solid red;
+}
+
+.bottom.media {
+    flex-shrink: 0;
+}
+
+.blog {
+    width: 48px;
+    border: 1px solid red;
+}
+
+.top.media {
+    flex-shrink: 0;
+}
+
+.contact {
+    width: 106px;
+    border: 1px solid red;
+}
+
+.bottom.contact {
+    flex-shrink: 0;
+}
+
+.bottom.about {
+    width: 55px;
+    border: 1px solid red;
+    flex-shrink: 0;
+}
+
+.top.programmes {
+    width: 118px;
+    border: 1px solid red;
+
+}
+
+.top.maintenance {
+    width: 116px;
+    border: 1px solid red;
+    flex-shrink: 0;
+}
+
+.top.shop {
+    width: 48px;
+    border: 1px solid red;
+
+}
+
+.involved {
+    width: 117px;
+    border: 1px solid red;
+    flex-shrink: 0;
+}
+
+.media {
+    width: 52px;
+    border: 1px solid red;
+
+}
+
+.blog {
+    width: 48px;
+    border: 1px solid red;
+    flex-shrink: 0;
+}
+
+.contact {
+    width: 106px;
+    border: 1px solid red;
+
+}
