@@ -1,33 +1,62 @@
 * {
-    font-family: 'Roboto', arial, sans-serif;
     padding: 0;
     margin: 0;
 }
 
-.headercontainer {/*
-    display: flex;*/
+html {
+    font-size: 22px;
+}
+
+body {
+    background-color: #DFE8C6;
+    max-width: 1024px;
+    margin: auto;
+}
+/* Header */
+
+.headercontainer {
+    font-family: 'Roboto', arial, sans-serif;
+    display: flex;
     max-width: 1024px;
     width: 100%;
     height: auto;
-    border: 1px solid green;
+    position: fixed;
+    z-index: 5;
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
-.logocontainer {/*
-    display: inline-block;*/
+/* Header Logo */
+
+.logocontainer {
+    max-width: 320px;
+    min-width: 200px;
     display: flex;
 }
 
+.headerlogo {
+    display: flex;
+    width: 100%;
+}
+
 .headerlogo img{
-    height: 2.2rem;
-    width: auto;
-    border: 1px dotted green;
+    height: 1.5rem;
+    width: 100%;
+}
+
+
+/* Header Nav Section */
+
+a {
+    text-decoration: underline;
+    color: #90AE2C;
 }
 
 .navcontainer {
     max-width: 700px; 
-    width: 100%;
-    border: 1px dotted black;/*
-    display: flex;*/
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.7rem;
 }
 
 #navtop,
@@ -39,7 +68,7 @@
 #navtop > div,
 #navbottom > div {
     margin: 2px;
-    line-height: 1rem;
+    line-height: 0.7rem;
 }
 
 .shrink {
@@ -47,48 +76,58 @@
 }
 
 .noshrink {
+    border: 2px solid whitesmoke;
     flex-shrink: 0;
 }
 
 .about {
     width: 55px;
-    border: 1px solid red;
 }
 
 .programmes {
     width: 118px;
-    border: 1px solid red;
 }
 
 .maintenance {
     width: 116px;
-    border: 1px solid red;
 }
 
 .shop {
     width: 48px;
-    border: 1px solid red;
 
 }
 
 .involved {
     width: 117px;
-    border: 1px solid red;
     flex-wrap: nowrap;
 }
 
 .media {
     width: 52px;
-    border: 1px solid red;
 }
 
 .blog {
     width: 48px;
-    border: 1px solid red;
 }
 
 .contact {
     width: 106px;
-    border: 1px solid red;
     flex-wrap: nowrap;
 }
+
+/* Split Header for Mobile */
+
+@media only screen and (max-width: 585px) {
+.headercontainer {
+    display: block;
+    }
+.abouthide {
+    display: none;
+    }
+.navcontainer {
+    width: 75%;
+    min-width: 0;
+    }
+}
+
+/*  BODY */
