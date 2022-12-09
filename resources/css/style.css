@@ -29,7 +29,7 @@ body {
 
 .logocontainer {
     max-width: 320px;
-    min-width: 200px; /* SHOULD BE min-width: 320px; */
+    min-width: 320px; /* This value was min-width: 200px; which is wrong. */
     display: flex;
 }
 
